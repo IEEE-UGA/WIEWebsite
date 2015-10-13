@@ -76,10 +76,10 @@ aside {
     padding: 0;
 }
 
-.navbar-default {
+.navbar-default { /*Michael Melatti change background color*/
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: #fff;
+    background-color: #000;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -121,14 +121,14 @@ aside {
     background-color: transparent;
 }
 
-@media(min-width:768px) {
+@media(min-width:768px) { /*Michael Melatti*/
     .navbar-default {
         border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        /* background-color: transparent; */
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: rgba(255,2.navbar-default55,255,.7);
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
